@@ -1,4 +1,30 @@
 {
-  "Projects": [],
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "33471555-5cca-45cf-af12-df68a5ce97cb",
+        "ProjectName": "proje22",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\Raz\\Documents\\proje"
+      },
+      "UserData": [
+        {
+          "UserName": "razhol",
+          "DatabasesData": []
+        }
+      ]
+    }
+  ],
   "GlobalConfigurations": null
 }
