@@ -5,7 +5,26 @@
         "ProjectId": "33471555-5cca-45cf-af12-df68a5ce97cb",
         "ProjectName": "proje22",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "a3b439b9-1429-42aa-9058-d80c62b5b132",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "071e9fbd-04cf-46ae-a830-1a8085d1b470",
+                "DatabaseAliasName": "exemp2",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/razhol/dbMeatroRepDb.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -21,7 +40,30 @@
       "UserData": [
         {
           "UserName": "razhol",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "071e9fbd-04cf-46ae-a830-1a8085d1b470",
+              "DatabaseAliasName": "exemp2",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "RS1",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "razhol",
+                "Password": "+TheBzd9nyllY1tMYttpncb0bwg11PaPUxHj3qiadx0GEoNo+qJmhHKvHZ8tWm/H"
+              }
+            }
+          ]
         }
       ]
     }
